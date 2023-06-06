@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Estilos header */
+
+header{
+    
+    background:#bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317,45%,52%,0.664)), url(../img/fondo.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317,45%,52%,0.664)), url(../img/fondo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding: 15%;
+}
+
+header > h1{
+    color: black;
+    font-size: 50px;
+    background-color: rgb(218, 225, 231);
+    padding: 4%;
+    border-radius: 50px;
+} 
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Estilos quien soy*/
+
+.quiensoy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(163, 219, 155);
+}
+
+.quiensoy .img > img{
+    width: 26%;
+    padding: 2%;
+    border-radius: 50px;
+}
+
+.quiensoy .img{
+    display: flex;
+    justify-content:center;
+    float: left;
+}
+
+.quiensoy .txt > h2{
+    font-size: 180%;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.quiensoy .txt > p{
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+/* Estilos valores*/
+
+.valores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(175, 224, 224);
+}
+
+.valores .listadevalores > p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.valores .listadevalores > ul > li {
+    list-style: none;
+    font-size: 30px;
+    line-height: 60px;
+    color: black;
+}
+
+.valores .logocolegio > img{
+    width: 70%;
+    border-radius: 20%;
+}
+
+
+/*-----Mis metas-----*/
+
+.mismetas > h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 40px;  
+}
+
+.mismetas .metas {
+    display:flex ;
+    justify-content: space-around;
+    padding: 6%;
+    text-align: center;
+    align-items: center;
+}
+
+/*----meta1----*/
+
+.mismetas .meta1{
+    margin: 1%;
+    background-color: rgb(151, 155, 160);
+    padding: 2%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: 0.2 linear;
+    transition: 0.2s linear;
+}
+
+.mismetas .meta1:hover {
+    -webkit-box-shadow:10px 10px 14px 2px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.25);
+    background-color: rgb(190, 183, 255);
+    --webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.mismetas .meta1 img{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 5% ;
+}
+
+.mismetas .meta1 h3{
+    font-size: 20px;
+}
+
+/*---meta2---*/
+
+.mismetas .meta2{
+    margin: 1%;
+    background-color: rgb(151, 155, 160);
+    padding: 2%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: 0.2 linear;
+    transition: 0.2s linear;
+}
+
+.mismetas .meta2:hover {
+    -webkit-box-shadow:10px 10px 14px 2px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.25);
+    background-color: rgb(190, 183, 255);
+    --webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.mismetas .meta2 img{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 5% ;
+}
+
+
+
+.mismetas .meta2 h3{
+    font-size: 20px;
+}
+
+/*---meta3---*/
+
+.mismetas .meta3{
+    margin: 1%;
+    background-color: rgb(151, 155, 160) ;
+    padding: 2%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: 0.2 linear;
+    transition: 0.2s linear;
+}
+
+.mismetas .meta3:hover {
+    -webkit-box-shadow:10px 10px 14px 2px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.25);
+    background-color: rgb(190, 183, 255);
+    --webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.mismetas .meta3 img{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 5% ;
+}
+
+.mismetas .meta3 h3{
+    font-size: 20px;
+}
+
+/* -----Frase----*/
+
+.frase{
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.frase h2 {
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(193,183,255);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 40px;
+
+}
+
+
+/* -----Footer-----*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    align-items: center;
+   background-color: rgb(140, 84, 192);
+}
+
+footer p{
+    margin-left: 5%;
+    color: white;
+    padding: 2%;
+
+}
+
+footer .socials {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 15%;
+    margin-right: 5%;
+}
+
+footer .socials a img{
+    border-radius: 30%;
+    padding: 30%;
+    align-items: center;
+    -webkit-transition: 0.2 linear;
+    transition: 0.2s linear;
+
+}
+
+footer .socials a img:hover{
+    background-color: rgb(190,183 ,255 );
+    transition-duration: 0.2s;
+}
+
+
+
+
+
